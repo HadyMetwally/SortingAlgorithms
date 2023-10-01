@@ -4,8 +4,10 @@
 #include<iterator>
 #include<functional>
 
-#define ascending  0
-#define descending 1
+#define sortedascend     0
+#define sorteddescend    1
+#define ascending        0
+#define descending       1
 
 #define display(arr) do{\
                        for(auto it : arr)\
